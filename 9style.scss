@@ -43,7 +43,7 @@ $border-width: 4px;
   @include bg-pattern($yellow-vlight, $white);
 }
 
-.bg-lightblue {
+.bg-blue {
   @include bg-pattern($blue-vlight, $white);
 }
 
