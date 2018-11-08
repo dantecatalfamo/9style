@@ -11,7 +11,7 @@ $blue-dark: #1DAAFC; /* dark blue background, dark graph fill */
 $blue-vdark: #1589CC; /* dark blue graph border */
 $blue-grey: #5AA8A7; /* focus border color */
 
-$purple-light: #888ACD; /* multipuropse border, light blue graph border, component */
+$purple-light: #888ACD; /* multipuropse border, scrollbar, light blue graph border, component */
 $purple-dark: #031195; /* button fill? */
 
 $red-light: #FDA8A9; /* red background */
@@ -22,14 +22,17 @@ $green-light: #8ACE8B; /* green graph fill */
 $green-dark: #49874A; /* green graph border */
 
 $yellow-vlight: #FFFEAC; /* yellow background */
-$yellow-light: #EFEEA3; /* yellow graph fill */
-$yellow-dark: #989753; /* yellow scroll bar, graph outline */
+$yellow-light: #EFEEA3; /* yellow graph fill, highlight */
+$yellow-dark: #989753; /* yellow scroll bar, border, graph outline */
 
 // Dimensions
 $dot-size: 1px;
 $dot-space: 2px;
 
 $border-width: 4px;
+
+/* small borders are 1px solid black */
+/* medium borders are 2px solid black */
 
 @mixin bg-pattern($dot-color, $bg-color) {
   background:
