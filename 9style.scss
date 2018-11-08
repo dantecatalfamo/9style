@@ -1,0 +1,78 @@
+$white: #FFFFFF; /* standard white */
+$black: #000000; /* standard black */
+
+$grey-bar: #989898; /* grey scrollbar, divider */
+$grey-light: #EFEFEF; /* light grey background */
+$grey-dark: #777777; /* background */
+
+$blue-vlight: #ABFFFE; /* regular blue background */
+$blue-light: #A2EFEE; /* backround border color, light graph fill */
+$blue-dark: #1DAAFC; /* dark blue background, dark graph fill */
+$blue-vdark: #1589CC; /* dark blue graph border */
+$blue-grey: #5AA8A7; /* focus border color */
+
+$purple-light: #888ACD; /* multipuropse border, light blue graph border, component */
+$purple-dark: #031195; /* button fill? */
+
+$red-light: #FDA8A9; /* red background */
+$red-dark: #B66061; /* red graph border */
+
+$green-vlight: #ABFEAB; /* green background */
+$green-light: #8ACE8B; /* green graph fill */
+$green-dark: #49874A; /* green graph border */
+
+$yellow-vlight: #FFFEAC; /* yellow background */
+$yellow-light: #EFEEA3; /* yellow graph fill */
+$yellow-dark: #989753; /* yellow scroll bar, graph outline */
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 2px;
+
+@mixin bg-pattern($dot-color, $bg-color) {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+}
+
+.bg-yellow {
+  @include bg-pattern($yellow-vlight, $white);
+}
+
+.bg-lightblue {
+  @include bg-pattern($blue-vlight, $white);
+}
+
+.bg-darkblue {
+  @include bg-pattern($blue-dark, $white);
+}
+
+.bg-red {
+  @include bg-pattern($red-light, $white);
+}
+
+.bg-green {
+  @include bg-pattern($green-vlight, $white);
+}
+
+.bg-grey {
+  background-color: $grey-light;
+}
+
+.bg-darkgrey {
+  background-color: $grey-dark;
+}
+
+.border-window {
+  border-width: 4px;
+}
+
+.border-focus {
+  border-color: $blue-grey;
+}
+
+.border-background {
+  border-color: $blue-light;
+}
