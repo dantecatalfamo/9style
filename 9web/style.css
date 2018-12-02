@@ -1,0 +1,74 @@
+/* standard white */
+/* standard black */
+/* grey scrollbar, divider */
+/* light grey background */
+/* background */
+/* regular blue background */
+/* backround border color, light graph fill */
+/* dark blue background, dark graph fill */
+/* dark blue graph border */
+/* focus border color */
+/* multipuropse border, scrollbar, light blue graph border, component */
+/* button fill? */
+/* red background */
+/* red graph border */
+/* green background */
+/* green graph fill */
+/* green graph border */
+/* yellow background */
+/* yellow graph fill, highlight */
+/* yellow scroll bar, border, graph outline */
+/* small borders are 1px solid black */
+/* medium borders are 2px solid black */
+.bg-yellow {
+  background: linear-gradient(90deg, #FFFFFF 1px, transparent 1%) center, linear-gradient(#FFFFFF 1px, transparent 1%) center, #FFFEAC;
+  background-size: 2px 2px;
+}
+
+.bg-blue {
+  background: linear-gradient(90deg, #FFFFFF 1px, transparent 1%) center, linear-gradient(#FFFFFF 1px, transparent 1%) center, #ABFFFE;
+  background-size: 2px 2px;
+}
+
+.bg-darkblue {
+  background: linear-gradient(90deg, #FFFFFF 1px, transparent 1%) center, linear-gradient(#FFFFFF 1px, transparent 1%) center, #1DAAFC;
+  background-size: 2px 2px;
+}
+
+.bg-red {
+  background: linear-gradient(90deg, #FFFFFF 1px, transparent 1%) center, linear-gradient(#FFFFFF 1px, transparent 1%) center, #FDA8A9;
+  background-size: 2px 2px;
+}
+
+.bg-green {
+  background: linear-gradient(90deg, #FFFFFF 1px, transparent 1%) center, linear-gradient(#FFFFFF 1px, transparent 1%) center, #ABFEAB;
+  background-size: 2px 2px;
+}
+
+.bg-grey {
+  background-color: #EFEFEF;
+}
+
+.bg-darkgrey {
+  background-color: #777777;
+}
+
+.window {
+  border-width: 4px;
+  border-style: solid;
+  position: relative;
+}
+
+.window-fg {
+  border-color: #5AA8A7;
+}
+
+.window-bg {
+  border-color: #A2EFEE;
+}
+
+.mono {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+/*# sourceMappingURL=style.css.map */
